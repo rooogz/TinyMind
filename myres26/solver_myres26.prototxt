@@ -1,0 +1,16 @@
+net: "/data/train_val_myres26.prototxt"
+test_iter: 156
+test_interval: 100
+base_lr: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+lr_policy: "multistep"
+gamma:0.1
+stepvalue:3000
+stepvalue:5000
+stepvalue:7000
+display: 100
+max_iter: 10000
+snapshot: 2000
+snapshot_prefix: "/data/output/myres20_"
+solver_mode: GPU
