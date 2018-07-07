@@ -1,0 +1,4 @@
+/data/tinymind_mxnet_docker.py --batch_size=128 --num_epoch=40 --lr=0.05 --step_value=10 --display=100 --model_prefix='resnet18' --num_classes=100 --wd=1e-5 --momentum=0.9 --data_shape='3,64,64' --resize=64 --rand_crop=False --rand_resize=False --rand_mirror=False --mean='128,128,128' --std='256,256,256' --brightness=0 --contrast=0 --saturation=0 --hue=0 --pca_noise=0 --rand_gray=0 --inter_method=2
+
+
+/data/tinymind_mxnet_docker.py --batch_size=64 --num_epoch=40 --lr=0.01 --step_value=10 --display=100 --model_prefix=resnet18 --num_classes=100 --data_shape=3,64,64 --resize=64 --mean=128,128,128 --std=256,256,256
